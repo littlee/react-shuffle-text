@@ -1,8 +1,13 @@
 {
   "name": "react-shuffle-text",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React component that apply shuffle animation to text",
-  "keywords": ["react", "shuffle", "text", "animation"],
+  "keywords": [
+    "react",
+    "shuffle",
+    "text",
+    "animation"
+  ],
   "main": "dist/react-shuffle-text.js",
   "module": "dist/react-shuffle-text.js",
   "scripts": {
