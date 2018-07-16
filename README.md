@@ -28,7 +28,7 @@ custom styles & effects:
 @keyframes myWordEnter {
   0% {
     opacity: 0;
-    transform: translate(100%, 0) scale(0.5);
+    transform: translate(-100%, 0) scale(5);
   }
 
   100% {

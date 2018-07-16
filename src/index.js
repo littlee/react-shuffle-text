@@ -85,7 +85,7 @@ class ShuffleText extends React.Component {
 ShuffleText.defaultProps = {
   content: '',
   charIncInterval: 100,
-  charFrames: 10,
+  charFrames: 15,
   charFrameTime: 50
 };
 
