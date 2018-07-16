@@ -1,5 +1,7 @@
 # React Shuffle Text
 
+![Preview](http://p8p91nbds.bkt.clouddn.com/Jul-16-2018%2021-51-46.gif)
+
 ## Basic Usage
 install:
 ```
