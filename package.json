@@ -14,8 +14,8 @@
     "type": "git",
     "url": "git+https://github.com/littlee/react-shuffle-text.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "littlee",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/littlee/react-shuffle-text/issues"
   },
