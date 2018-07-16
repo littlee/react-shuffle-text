@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React component that apply shuffle animation to text",
   "main": "dist/react-shuffle-text.js",
-  "module": "src/index.js",
+  "module": "dist/react-shuffle-text.js",
   "scripts": {
     "start": "npm run dev-watch",
     "dev-build": "webpack --mode development",

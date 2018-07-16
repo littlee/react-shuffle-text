@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
 
-import ShuffleText from '../../src/index';
+import ShuffleText from 'react-shuffle-text';
 
 class App extends React.Component {
   render() {
