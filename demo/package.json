@@ -28,6 +28,6 @@
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-shuffle-text": "^1.0.1"
+    "react-shuffle-text": "^1.0.2"
   }
 }

@@ -1,13 +1,13 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-
+import './index.css';
 import ShuffleText from 'react-shuffle-text';
 
 class App extends React.Component {
   render() {
     return (
-      <h1>
-        <ShuffleText content="Shuffle Text Demo" />
+      <h1 className="my-shuffle">
+        <ShuffleText content="Zhuangbility leads to leipility" />
       </h1>
     );
   }

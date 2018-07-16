@@ -16,6 +16,26 @@ import ShuffleText from 'react-shuffle-text';
 
 ```
 
+custom styles & effects:
+```css
+/* write styles for .shuffle-text-char with higher specificity */
+.my-shuffle .shuffle-text-char {
+  animation: 0.5s ease-in-out both myWordEnter; /* none for no effect */
+}
+
+@keyframes myWordEnter {
+  0% {
+    opacity: 0;
+    transform: translate(100%, 0) scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+}
+```
+
 ## Available Props
 - content: PropTypes.string.isRequired
   - text wanted to display
