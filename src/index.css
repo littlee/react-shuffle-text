@@ -1,13 +1,14 @@
 .shuffle-text-char {
   display: inline-block;
-  animation: 0.5s ease-in-out both wordEnter;
+  animation: 0.3s ease-in-out both wordEnter;
 }
 @keyframes wordEnter {
-  from {
+  0% {
     opacity: 0;
-    transform: translate(-1em, 0) scale(1.5);
+    transform: translate(-50%, 0) scale(3);
   }
-  to {
+
+  100% {
     opacity: 1;
     transform: translate(0, 0) scale(1);
   }

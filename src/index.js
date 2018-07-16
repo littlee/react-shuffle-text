@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Char from './Char';
+import './index.css';
 
 class ShuffleText extends React.Component {
   constructor(props) {
@@ -54,7 +55,7 @@ class ShuffleText extends React.Component {
         {content.map((char, index) => (
           <Char
             key={index + char}
-            char={char}
+            char={char === ' ' ? '\u00a0' : char}
             frames={charFrames}
             frameTime={charFrameTime}
           />
@@ -89,7 +90,7 @@ ShuffleText.defaultProps = {
 };
 
 ShuffleText.propTypes = {
-  content: PropTypes.string,
+  content: PropTypes.string.isRequired,
   charIncInterval: PropTypes.number,
   charFrames: PropTypes.number,
   charFrameTime: PropTypes.number
