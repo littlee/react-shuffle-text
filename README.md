@@ -14,7 +14,7 @@ import ShuffleText from 'react-shuffle-text';
 
 
 // somewhere in render function
-<ShuffleText content="Zhuangbility">
+<ShuffleText content="Zhuangbility" />
 
 ```
 
